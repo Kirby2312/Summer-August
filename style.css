@@ -1,0 +1,298 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+}
+
+body{
+    background-color: #e8c7ae;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+#logo{
+    width:10%;
+}
+
+.navbar{
+    background-color:#222222;
+}
+
+.collapse{
+    margin-left: 2%;
+}
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.btn-primary{
+    background-color: darkslategray;
+    padding:1%;
+    border:2px solid white;
+}
+
+.one{
+    position:absolute;
+    right:2%;
+}
+
+.two{
+    position:absolute;
+    right:12%;
+}
+.btn-primary:hover{
+    background-color: white;
+    color:darkslategray;
+    border:2px solid darkslategray;
+}
+
+#about{
+    padding:5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#info{
+    background-color: #222;
+    padding:3%;
+    border:3px solid white;
+    align-items: center;
+    text-align: center;
+}
+
+
+#info > h1{
+    text-align: center;
+    font-size:200%;
+    text-decoration: underline;
+    color:white;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+#info > #tagline{
+    text-align: center;
+}
+
+
+#info > p {
+    text-align: justify;
+    font-size:150%;
+    color:white;
+    padding-left: 7%;
+    padding-right:7%;
+
+}
+
+#branch{
+    padding:2%;
+    margin-top: 4%;
+    margin-bottom:4%;
+}
+
+.address > h2{
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.address{
+    width:50%;
+    padding: 5%;
+}
+
+.address > p {
+    font-size: 1.2em;
+}
+
+#first{
+    background-color: #e8c7ae;
+    color:darkslategray;
+}
+
+#second{
+    background-color: #222;
+    color:white;
+}
+
+
+span{
+    font-weight: bold;
+    color:#222;
+}
+
+#title{
+    color:#e8c7ae;
+}
+
+#branch>h2{
+    font-size:3em;
+    padding-bottom:1%;
+    text-align:center;
+}
+
+iframe{
+    width:100%;
+    height:100%;
+    margin-bottom:1%;
+}
+
+button{
+    background-color: #A9957B;
+    padding:2%;
+    border:3px solid white;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+.maplink{
+    color:white;
+    font-weight: bold;
+}
+
+.maplink:hover{
+    color:white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color:darkgray;
+}
+
+
+#dishes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dish{
+    width:18em;
+    height:18em;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.dish:hover{
+    border:2px solid white;
+}
+
+#cuisine{
+    text-align: center;
+    margin-top :2%;
+    margin-bottom:1%;
+    font-size:3em;
+    color:white;
+}
+
+#background{
+    background-color: #222;
+    padding:2%;
+}
+
+.separate{
+    margin:1%;
+    margin-bottom:3%;
+}
+
+#information{
+    margin-top:3%;
+}
+
+.booking{
+    padding:2%;
+    text-align: center;
+}
+
+.booking>h2{
+    font-size:2.5em;
+    text-decoration: underline;
+}
+
+.booking>p{
+    font-size:2em;
+}
+
+.line{
+    border-right: 2px solid black;
+}
+
+#information{
+    padding:1%;
+    margin-bottom: 3%;
+}
+
+.social{
+   width:50px;
+   height:50px;
+   padding:1%;
+}
+
+#branch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#map{
+    width:100%;
+}
+
+.location{
+    width:50%;
+    padding:2%;
+}
+
+.place{
+    margin:0;
+    padding:0;
+    display:flex;
+    height:500px;
+}
+
+.second{
+    background-color: #222;
+}
+
+
+@media screen and (max-width:768px){
+    .navbar{
+        height:10%;
+    }
+    #logo{
+        width:20%;
+    }
+
+
+    .alignment{
+        top:15%;
+        margin-bottom: 10%;
+    }
+    .col-sm-12{
+        padding:1%;
+        text-align: center;
+    }
+
+    .two{
+        right:25%;
+    }
+
+    .place{
+        display: inline;
+    }
+    .address{
+        width:100%
+    }
+    .location{
+        width:100%;
+        height: 400px;
+    }
+
+}
+
+

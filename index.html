@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <title>Summer August</title>
+        <link rel="icon" href="icon.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap Links -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function hello(){
+                alert("Thank you for your interest in our restaurant! For booking, please call the phone number speicfied to each branch by clicking on 'address'.")
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <img id="logo" src="companylogo.png" alt="company logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cuisine">Cuisine</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#first">Address</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="hello()">Book Now</a>
+                  </li>
+                </ul>
+            </div>
+            <a class="btn btn-primary one" href="employee.html" role="button">Employee</a>
+            <a class="btn btn-primary two" href="manager.html" role="button">Manager</a>
+        </nav>
+
+        <div id="about"> 
+            <div id="info">
+                <h1>Summer August</h1>
+                <p id="tagline">Western Salt & Sugar Reduction Restaurant</p>
+                <p>
+                    Western restaurant serves good food at reasonable pricing, 
+                    such as signature dish grilled crab meat risotto with crab cream sauce, 
+                    and German style grilled pork span knuckle with honey mustard.
+                </p>
+            </div>
+            
+        </div>
+        <div id="background">
+            <h2 id="cuisine">Cuisine</h2>
+            <div id="dishes" class="container">
+                <div class="row separate">
+                    <div class="col-lg-4 col-sm-12">
+                        <img class="dish" src="dish1.jpeg" alt="dish pic">
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img class="dish" src="dish2.jpeg" alt="dish pic">
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <img class="dish" src="dish3.jpeg" alt="dish pic">
+                    </div>
+                </div>
+                <div class="row separate">
+                    <div class="col-lg-6 col-sm-12">
+                        <img class="dish" src="dish5.jpeg" alt="dish pic">
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <img class="dish" src="dish6.jpeg" alt="dish pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="place">
+            <div class="location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.51117411505!2d114.02136131465902!3d22.44741728524739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f09f13266f79%3A0x702c675f8b3d78c8!2sSummer%20August!5e0!3m2!1sen!2shk!4v1664123809463!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="address" id="first">
+                <p><span>First Branch</span></p>
+                    <p>
+                    Shop 15, G/F, Block A, Fu Loy Garden, 7 Ma Wang Road, Yuen Long <br>
+                    Phone Number : 67261786 <br>
+                    Opening Hours : <br>
+                    Mon - Fri : 11:00 - 15:00 and 18:00 - 21:30 <br>
+                    Sat - Sun : 07:30 - 15:00 and 18:00 - 21:30
+                </p>
+                <button class="gmap"><a class="maplink" href="https://goo.gl/maps/EN2v3QLWNUHeTPdc9">Get Direction</a></button>
+            </div>
+        </div>
+        <div class="place">
+            <div class="address" id="second">
+                <p><span id="title">Second Branch</span></p>
+                    <p>
+                        Shop D, G/F, Shun Fat Mansion, 54-56 Kau Yuk Road, Yuen Long, Yuen Long <br>
+                        Phone Number : 68934143 <br>
+                        Opening Hours : <br>
+                        Mon - Sun : 11:00 - 22:30
+                    </p>
+                    <button class="gmap"><a class="maplink" href="https://goo.gl/maps/7wQJ8gTyetVK99qe8">Get Direction</a></button>
+            </div>
+            <div class="location second">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.51117411505!2d114.02136131465902!3d22.44741728524739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f09f13266f79%3A0x702c675f8b3d78c8!2sSummer%20August!5e0!3m2!1sen!2shk!4v1664123809463!5m2!1sen!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- <div id="branch">
+            <div id="location">
+                <img id="map" src="maps.png" alt="maps">
+            </div>
+            <div id="address">
+                <h2>Our Restaurants</h2>
+                <div>
+                    <p><span>First Branch</span></p>
+                     <p>
+                        Shop 15, G/F, Block A, Fu Loy Garden, 7 Ma Wang Road, Yuen Long <br>
+                        Phone Number : 67261786 <br>
+                        Opening Hours : <br>
+                        Mon - Fri : 11:00 - 15:00 and 18:00 - 21:30 <br>
+                        Sat - Sun : 07:30 - 15:00 and 18:00 - 21:30
+                    </p>
+                    <button class="gmap"><a class="maplink" href="https://goo.gl/maps/EN2v3QLWNUHeTPdc9">Get Direction</a></button>
+                </div>
+                <div>
+                    <p><span>Second Branch</span></p>
+                    <p>
+                        Shop D, G/F, Shun Fat Mansion, 54-56 Kau Yuk Road, Yuen Long, Yuen Long <br>
+                        Phone Number : 68934143 <br>
+                        Opening Hours : <br>
+                        Mon - Sun : 11:00 - 22:30
+                    </p>
+                    <button class="gmap"><a class="maplink" href="https://goo.gl/maps/7wQJ8gTyetVK99qe8">Get Direction</a></button>
+                </div>
+
+               
+            </div>
+        </div> -->
+        <!-- <div id="address" class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 alignment">
+                    <h1>Branch 1</h1>
+                    <p>Shop 15, G/F, Block A, Fu Loy Garden, 7 Ma Wang Road, Yuen Long</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.511173722789!2d114.01917263488768!3d22.4474173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f09f13266f79%3A0x702c675f8b3d78c8!2sSummer%20August!5e0!3m2!1sen!2shk!4v1663753289385!5m2!1sen!2shk" width="600" height="450" 
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="address" class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3687.6240301934176!2d114.02455881465897!3d22.443172485249573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403fa0a9e2ea9c3%3A0x2c547187ac44e8a8!2sShun%20Fat%20House!5e0!3m2!1sen!2shk!4v1664097764133!5m2!1sen!2shk" width="600" height="450" style="border:0;" 
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6 col-sm-12 alignment">
+                    <h1>Branch 2</h1>
+                    <p> Shop D, G/F, Shun Fat Mansion, 54-56 Kau Yuk Road, Yuen Long, Yuen Long</p>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    </body>
+</html>
