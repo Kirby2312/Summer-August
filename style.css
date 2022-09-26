@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #e8c7ae;
+    background-color: #f2e6d3;
 }
 
 p{
@@ -110,7 +110,7 @@ p{
 }
 
 #first{
-    background-color: #e8c7ae;
+    background-color: #f2e6d3;
     color:darkslategray;
 }
 
@@ -259,6 +259,17 @@ button:hover{
     background-color: #222;
 }
 
+.menupic{
+    align-items: center;
+    width:70%;
+    height:auto;
+}
+
+#menu{
+    text-align: center;
+    background-color:#f2e6d3;
+    padding:1%;
+}
 
 @media screen and (max-width:768px){
     .navbar{
@@ -279,7 +290,7 @@ button:hover{
     }
 
     .two{
-        right:25%;
+        right:28%;
     }
 
     .place{
